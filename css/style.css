@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    height: 100%;
+}
+
+html, body, nav, header, main, aside, footer, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e1d5b7;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 300px 150px 1000px 150px 300px;
+    grid-template-rows: 350px auto 70px;
+    grid-template-areas:
+        ". header header  header ."
+        ".    nav       main      aside    ."
+        ".  footer  footer footer  .";
+}
+nav {
+    grid-area: nav;
+    background-color: #e1d5b7;
+}
+
+nav ul {
+    background-color: #ffffff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: #0d5712;
+}
+
+nav a:hover, nav a:active {
+    background-color: #637e70;
+    color: #274606;
+}
+nav a.dennasidan {
+    background-color: aquamarine;
+}
+nav a.dennasidan::before {
+    content: "";
+}
+header {
+    grid-area: header;
+    background-image: url(../img/studio\ kalmar.png);
+}
+
+aside {
+    grid-area: aside;
+    background-color: #685527;
+    padding: 5px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #e1d5b7;
+    padding: 10px;
+    
+    
+}
