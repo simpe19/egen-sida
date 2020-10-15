@@ -47,6 +47,15 @@ nav a {
     display: block;
     padding: 1rem;
 }
+nav ul ul {
+    flex-direction: column;
+    display: none;
+    margin: 10px;
+}
+nav ul li:hover ul {
+    display: flex;
+}
+
 
 nav a:link, nav a:visited {
     color: #0d5712;
@@ -79,4 +88,18 @@ footer {
     padding: 10px;
     
     
+}
+footer a:link, footer a:visited {
+    color: #0d5712;
+}
+
+footer a:hover, footer a:active {
+    background-color: #637e70;
+    color: #274606;
+}
+footer a.dennasidan {
+    background-color: aquamarine;
+}
+footer a.dennasidan::before {
+    content: "";
 }
