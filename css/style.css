@@ -33,6 +33,12 @@ main {
 main iframe {
     padding: 20px;
 }
+#studio {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
 figure {
     float: left;
 }
@@ -128,4 +134,38 @@ footer a.dennasidan {
 }
 footer a.dennasidan::before {
     content: "";
+}
+#Kontakt {
+    padding: 20px;
+}
+#Kontakt fieldset {
+    background-color: #ffeedd;
+    margin-bottom: 20px;
+}
+#Kontakt legend {
+    font-weight: bold;
+}
+#send {
+    text-align: left;
+}
+#medde {
+    height: 230px;
+}
+#medddde {
+    height: 200px;
+    width: 500px;
+}
+.column {
+    margin-left: 20px;
+}
+#Bokning {
+    padding: 20px;
+    
+}
+#Bokning fieldset {
+    background-color: #ffeedd;
+    margin-bottom: 20px;
+}
+#Bokning legend {
+    font-weight: bold;
 }
