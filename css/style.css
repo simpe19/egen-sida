@@ -169,3 +169,71 @@ footer a.dennasidan::before {
 #Bokning legend {
     font-weight: bold;
 }
+.svart {
+    margin-left: 85px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+#svart1 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;  
+}
+#svart2 {
+ height: 300px;
+ width: 300px;
+ padding: 10px;
+}
+#svart3 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+#svart4 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.färg {
+margin-left: 125px;
+padding: 10px;
+font-weight: bold;
+}
+#färg1 {
+height: 300px;
+width: 300px;
+padding: 10px;
+}
+#färg2 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+#färg3 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+#färg4 {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+main ul {
+    list-style: none;
+}
+table {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    margin-left: 200px;
+}
+th, td {
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+main h1 {
+    margin-left: 300px;
+}
